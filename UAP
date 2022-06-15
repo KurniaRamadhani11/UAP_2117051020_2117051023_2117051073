@@ -10,6 +10,8 @@ int main(){
 void tambah(stack<string>&playlist){
     string lagu;
 	cout<<"-------------------------------\n";
+	cin.ignore();
+	cout<<"Enter the song's title :\n";
   
 
 
