@@ -18,7 +18,12 @@ void tambah(stack<string>&playlist){
 }
   
 void print(stack<string>playlist){
-	int j=1;
+int j=1;
+cout<<"\n===============================\n";
+if (playlist.empty()){
+
+}
+
 
 
 }
