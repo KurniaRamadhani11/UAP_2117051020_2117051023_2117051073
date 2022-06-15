@@ -74,3 +74,11 @@ void displayplay(string play){
 void stop(string &play){
 	play.erase();
 }
+
+void run(){
+	int pilihan;
+	string play;
+	stack<string>playlist;
+	
+}
+
