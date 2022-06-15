@@ -91,6 +91,8 @@ void run(){
 			tambah(playlist);
 		}else if(pilihan==2){
 			playy(playlist,play);
+		}else if(pilihan==3){
+			stop(play);
 		
 }
 
