@@ -11,7 +11,14 @@ void playy(stack<string>&,string&);
 
 void displayplay(string);
 
+void stop(string&);
+
+void run();
+
+
 int main(){
+run();
+}
 
 void tambah(stack<string>&playlist){
     string lagu;
@@ -30,9 +37,5 @@ if (playlist.empty()){
 	cout<<"\nPlease add some songs";
 }
 
-
-
 }
 
-}
-}
