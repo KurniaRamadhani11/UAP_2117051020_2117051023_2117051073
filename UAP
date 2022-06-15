@@ -89,6 +89,8 @@ void run(){
 		cin>>pilihan;
 		if(pilihan==1){
 			tambah(playlist);
+		}else if(pilihan==2){
+			playy(playlist,play);
 		
 }
 
