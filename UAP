@@ -35,7 +35,13 @@ cout<<"\n===============================\n";
 if (playlist.empty()){
 	cout<<"\nYour playlist is empty";
 	cout<<"\nPlease add some songs";
+}else{
+	while(!playlist.empty()){
+		cout<<endl<<j<<". "<<playlist.top();
+		j++;
+		playlist.pop();
+	}
 }
-
+cout<<"\n\n===============================\n";
 }
 
