@@ -18,6 +18,7 @@ void tambah(stack<string>&playlist){
 }
   
 void print(stack<string>playlist){
+	int j=1;
 
 
 }
