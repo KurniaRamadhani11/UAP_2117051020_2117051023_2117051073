@@ -93,6 +93,9 @@ void run(){
 			playy(playlist,play);
 		}else if(pilihan==3){
 			stop(play);
+		}else{
+			cout<<"\nThank you! See u next time!"<<endl;
+		}
 		
 }
 
