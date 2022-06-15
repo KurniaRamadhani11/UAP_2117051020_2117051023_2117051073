@@ -80,5 +80,11 @@ void run(){
 	string play;
 	stack<string>playlist;
 	
+	do{
+	
+		displayplay(play);
+		print(playlist);
+		
+		
 }
 
