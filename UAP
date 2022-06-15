@@ -51,5 +51,6 @@ void playy(stack<string>&playlist,string &play){
 		cout<<"\nPlease add some songs";
 	}else{
 		play=playlist.top();
+		playlist.pop();
 	}
 }
