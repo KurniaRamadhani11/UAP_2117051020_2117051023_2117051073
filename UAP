@@ -54,3 +54,8 @@ void playy(stack<string>&playlist,string &play){
 		playlist.pop();
 	}
 }
+
+void displayplay(string play){
+	cout<<"\nStatus : ";
+	cout<<"\nNow playing - "<<play<<endl;
+}
