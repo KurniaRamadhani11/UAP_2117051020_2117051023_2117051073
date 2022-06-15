@@ -12,6 +12,9 @@ void tambah(stack<string>&playlist){
 	cout<<"-------------------------------\n";
 	cin.ignore();
 	cout<<"Enter the song's title :\n";
+	getline(cin, lagu);
+	playlist.push(lagu);
+}
   
 
 
