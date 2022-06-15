@@ -21,7 +21,8 @@ void print(stack<string>playlist){
 int j=1;
 cout<<"\n===============================\n";
 if (playlist.empty()){
-
+	cout<<"\nYour playlist is empty";
+	cout<<"\nPlease add some songs";
 }
 
 
