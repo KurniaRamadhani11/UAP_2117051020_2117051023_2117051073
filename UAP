@@ -56,6 +56,9 @@ void playy(stack<string>&playlist,string &play){
 }
 
 void displayplay(string play){
+	cout<<"==============================WELCOME====================================="<<endl;
+	cout<<"================================T0========================================"<<endl;
+	cout<<"                                                                          "<<endl;
 	cout<<"\nStatus : ";
 	cout<<"\nNow playing - "<<play<<endl;
 }
