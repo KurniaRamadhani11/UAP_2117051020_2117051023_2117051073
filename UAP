@@ -8,6 +8,9 @@ void tambah(stack<string>&);
 int main(){
 
 void tambah(stack<string>&playlist){
+    string lagu;
+	cout<<"-------------------------------\n";
+  
 
 
 }
