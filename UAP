@@ -1,7 +1,5 @@
 #include <iostream>
 #include <conio.h>
-#define Max 10
+#include <stack>
 using namespace std;
-//sebaris
-//2baris
-//3baris
+//tes
