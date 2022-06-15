@@ -4,7 +4,12 @@
 using namespace std;
 
 void tambah(stack<string>&);
+
 void print(stack<string>);
+
+void playy(stack<string>&,string&);
+
+void displayplay(string);
 
 int main(){
 
