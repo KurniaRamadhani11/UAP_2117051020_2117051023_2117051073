@@ -87,7 +87,8 @@ void run(){
 		cout<<"\nChoose a number below";
 		cout<<"\n1. Add song \n2. Play \n3. Stop \n4. Exit\n"<<"Input your choice : ";
 		cin>>pilihan;
-		
+		if(pilihan==1){
+			tambah(playlist);
 		
 }
 
