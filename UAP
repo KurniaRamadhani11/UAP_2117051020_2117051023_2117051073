@@ -98,7 +98,7 @@ void run(){
 		}
 		getch();
 		system("cls");
-	}
+	}while(pilihan!=4);
 		
 }
 
