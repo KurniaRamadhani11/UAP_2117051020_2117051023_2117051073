@@ -4,6 +4,7 @@
 using namespace std;
 
 void tambah(stack<string>&);
+void print(stack<string>);
 
 int main(){
 
