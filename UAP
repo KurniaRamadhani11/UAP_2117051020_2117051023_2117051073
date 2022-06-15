@@ -46,6 +46,10 @@ cout<<"\n\n===============================\n";
 }
 
 void playy(stack<string>&playlist,string &play){
-	cout<<"\nYour playlist is empty";
-	cout<<"\nPlease add some songs";
+	if(playlist.empty()){
+		cout<<"\nYour playlist is empty";
+		cout<<"\nPlease add some songs";
+	}else{
+		play=playlist.top();
+	}
 }
